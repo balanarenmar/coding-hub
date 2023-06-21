@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.card-img-overlay .card-text-c{
+	font-size: 20px;
+	text-align:center;
+}
+
+.card-img-overlay .card-title-c{
+	font-weight: bold;
+	text-align:center;
+}
