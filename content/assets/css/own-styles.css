@@ -1,0 +1,183 @@
+/**
+ * Implementing Own CSS styles by Group 4
+ * includes custom hover effects and text formatting
+ */
+
+
+.black-hlight {
+    background-color:black;
+    color: white
+}
+
+.hov-yellow {
+    transition: color .5s ease-out 50ms;
+
+    }
+.hov-yellow:hover{
+    color: #FC3;
+    }
+
+.yellow-head{
+    color: #FC3;
+}
+
+.blue-head{
+    color: #3CF;
+}
+
+.question{
+    color: white;
+    font-size: 22px;
+    margin-left: 30px;
+}
+.choice{
+    font-size: 18px;
+    margin-left: 75px;
+}
+
+ol.choices{
+    list-style: upper-alpha;
+}
+ol label li{
+    margin-left: 20px; 
+    padding-left: .5em;
+}
+
+.un-y {
+  display: inline-block;
+    }
+
+.un-y::after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: #FC3;
+  transition: 300ms;
+    }
+
+.un-y:hover::after {
+  width: 100%;
+    }
+
+
+
+.un-b {
+  display: inline-block;
+    }
+.un-b::after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: #3CF;
+  transition: 300ms;
+    }
+
+.un-b:hover::after {
+  width: 100%;
+    }
+
+a.blu-lk{
+    color: #4680ff;
+}
+a.blu-lk:hover{
+    text-decoration: underline;
+}
+
+h4.subheader {
+    margin-top: 25px;
+    font-weight: bolder;
+    color: #2389F8;
+}
+
+
+.hov-blue {
+    color: white;
+    transition: color .5s ease-out 10ms;
+    }
+.hov-blue:hover{
+    color: #3CF;
+    }
+
+.hov-dblu {
+    transition: color .25s ease-out 50ms;
+    }
+.hov-dblu:hover{
+    color: #0f192f;
+    }
+
+.snippet {
+    background-color: black;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 30px 0;
+}
+
+ul.spaced li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+pre.code-line{
+    margin-left: 50px;
+    margin-bottom: 0px !important;
+    color: white;
+    font-size: 16px;
+}
+
+span.head {
+   color: #008F11;
+   font-weight: bolder;
+}
+span.opp {
+   color: #c675ca;
+   font-weight: bolder;
+}
+
+span.function {
+   color: #448bc6;
+   font-weight: bolder;
+}
+
+span.var {
+   color: #02ffff;
+   font-weight: bolder;
+}
+span.int {
+   color: #FF9933;
+   font-weight: bold;
+}
+span.oct {
+   color: #b190c4;
+   font-weight: bolder;
+}
+span.hex {
+   color: #F22E4C;
+   font-weight: bolder;
+}
+span.char {
+   color: #99CC66;
+  
+}
+span.string {
+   color: #99CC66;
+   font-weight: bolder;
+}
+span.comnt {
+   color: #808080;
+
+}
+
+span.hl {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #dedede;
+    padding: 2px;
+    webkit-text-stroke: 2px black;
+    font-weight: bolder;
+}
+
+code.keyword{
+    color: ghostwhite;
+}
+
