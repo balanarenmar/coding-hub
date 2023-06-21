@@ -7,7 +7,7 @@ This projects serves as my submission for the Finals requirement in the course: 
 ---
 <br>
 
-- The backend database 
+- The backend database was originally implemented using **[XAMPP](https://www.apachefriends.org/)**. 
 
 <br>
 
