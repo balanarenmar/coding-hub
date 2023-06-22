@@ -8,6 +8,7 @@ This projects serves as my submission for the Finals requirement in the course: 
 <br>
 
 - The backend database was originally implemented using **[XAMPP](https://www.apachefriends.org/)**. 
+- Edit the file **`assets\enter\db.php`** to connect to the servername and database.
 
 <br>
 
