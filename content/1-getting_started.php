@@ -35,7 +35,6 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/own-styles.css">
     
-
     <!-- Dark layouts -->
     <link rel="stylesheet" href="assets/css/layout-dark.css">
 
